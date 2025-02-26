@@ -1,0 +1,68 @@
+  
+  body{
+  background-image: url(R\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.h0 { 
+  font-family:'Brush Script MT',cursive ;
+  color: #dad5d5bb;
+ text-align: center;
+ font-size:xx-large;
+ background-image:url(R\ \(1\).jpg) ;
+ background: size 100%;  
+ }
+.h2,h2{
+  background-color: aqua;
+  font-size: x-large;
+text-align: center;}   
+#p0{
+  font-variant: small-caps;
+  color: aliceblue;
+ background-color: rgba(240, 48, 198, 0.349) ; 
+  font-size: large;
+  width: auto;
+ max-width: 1000px;
+ min-width: 250px; 
+ max-height:  300px;
+ ;} 
+.Prehistory  { 
+  text-align:center;
+  font-size: x-large ;
+background-color: aqua;
+
+}
+.pre {
+  width: 20cm;
+height:8cm ;
+text-transform: capitalize;
+}
+.divtest {
+  width: 200px;
+  background-color: blueviolet;
+  text-align:center ;
+  direction: rtl;
+  text-decoration: underline wavy rgb(0, 255, 234);
+}
+.ppp{
+  text-transform: capitalize;
+}  
+.aaa{
+  text-decoration: none ;
+  color: blue;
+}
+.v{
+  text-shadow: 5px 5px 4px rgb(0, 225, 255);
+}
+.divdiv{
+  border-radius: 50px;
+  background-color: aqua ;
+  width: 200px ;
+  height: 200px;
+  box-shadow: 5px 5px 3px 5px blue  ;
+}
+.img1{
+position: inherit;
+}

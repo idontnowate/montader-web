@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML>
+    <HEAD>
+        <meta charset="UTF-8">
+        <meta name="width=divice-width , initial-scale=1.8"> 
+        <title>REGISTER TO MY DATE</title>
+        <link href="OIP.jpg" type="icon/x-icon" rel="icon">
+    </HEAD>
+    <BODY>
+        <form action="login.html"> 
+            <h1> REGISTER</h1>
+            <div>
+            <label for="fn">first name</label>
+            <input  required type="text" id="fn" placeholder="first name">
+            </div>
+            <br> 
+            <div>
+            <label for="sn">second name</label>
+            <input type="text" id="sn" placeholder="second name">
+            </div>
+            <br>
+            <div>
+                <label for="email"> your email</label>
+                <input type="email" required id="email" placeholder="your email">
+            </div>
+            <div>
+                <br>
+                <label for="password">password</label>
+                <input type="password" required id="password" placeholder="your password">           
+            </div>
+                        <div>
+                            <br>
+                            <label for="confirm password">confirm password</label>
+                            <input type="password" required id=" comfirm password" placeholder="your password">
+                        </div>
+            <div> <br>
+                <label for="age">birthday</label>
+                <input type="date" id="age" required min="1/1/1940"max="1/1/2009" placeholder="birthday">
+            </div>
+            <div> <br>
+                <label for="gender">gender</label>
+                <select id="gender" required placeholder="gender" >
+                    <option>male</option>
+                    <option>female</option>
+                    <option>It's better not to answer</option>
+                </select>
+            </div> <br>
+            <div>
+                <button type="submit">register</button>
+            </div>
+        </form>
+
+    </BODY>
+</HTML>
